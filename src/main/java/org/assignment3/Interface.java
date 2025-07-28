@@ -20,7 +20,7 @@ class Document implements Printable {
     public String getDetails() { return "Doc: " + content + ", Pages: " + pageNum; }
 }
 
-public class Interface {
+public class Interface{
     public static void main(String[] args) {
         Printable doc = new Document("Hello World", 2);
         doc.printHeader();
